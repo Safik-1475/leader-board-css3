@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*-------------------------------------------
+                    Fonts
+---------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*-------------------------------------------
+                Global styles
+---------------------------------------------*/
+body{
+    background-color:#f3f1ff;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width:867px;
+    margin:auto;
+}
+img{
+    max-width:100%;
+    vertical-align:middle;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/*-------------------------------------------
+                Header styles
+---------------------------------------------*/
+.header{
+    background-color:blueviolet;
+    padding:20px 0px;
+}
+.header .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.navbar-brand a {
+    text-transform:capitalize;
+    font-size:28px;
+    color:#ffffff;
+
+}
+.navbar .navbar-brand a img{
+    width:56px;
+    height:56px;
+}
+.navbar .nav-link{
+    display:flex;
+    align-items:center;
+}
+.navbar .nav-link li a{
+    margin-right:30px;
+    color:#ffffff;
+    font-size:18px;
+    text-transform:capitalize;
+    font-weight:400;
+}
+
+/*-------------------------------------------
+                Top player
+---------------------------------------------*/
+.bg-section{
+    background-color:#ffffff;
+    margin:20px 0px;
+    border-radius:5px;
+    padding:20px 0px;
+}
+.bg-section hr{
+    background-color:grey
+}
+.top-players{
+    padding:20px 30px;
+}
+.section-title{
+    font-size:28px;
+    text-transform:capitalize;
+    margin:20px 0px;
+    color:rgb(34, 46, 204)
+}
+
+
+.bg-section .players{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap:30px;
+}
+.bg-section .player{
+    display:flex;
+    align-items:center;
+}
+.players .player img{
+    width:56px;
+    height:56px;
+}
+ h5{
+    font-size:18px;
+    text-transform:capitalize;
+    margin-left:15px;
+    font-weight:600;
+}
+
+/*-------------------------------------------
+                Top blog 
+---------------------------------------------*/
+.top-blogs{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-row-gap:30px;
+    grid-column-gap:35px;
+}
+.blog-items{
+    display:flex;
+    align-items:center;
+}
+.top-blogs .photo img{
+    width:170px;
+    height:115px;
+}
+.top-blogs .blog-info h5,
+.top-blogs .blog-info p{
+    margin-left:15px;
+    line-height:28px;
+    text-transform:capitalize;
+}
+.top-blogs .blog-info p>a{
+    text-transform:capitalize;
+    font-size:15px;
+    font-weight:500;
+    color:blueviolet;
+}
