@@ -1,0 +1,71 @@
+
+
+/*-------------------------------------------------
+                small device phones 480px 
+---------------------------------------------------*/
+@media only screen and (max-width:480px) {
+  .header .navbar{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+  .bg-section .players{
+      display:grid;
+      grid-template-columns:repeat(1, 1fr);
+      justify-content:center;
+    }
+    .navbar .nav-link{
+        display:flex;
+        align-items:center;
+        flex:100%;
+    }
+    .top-blogs{
+      display:grid;
+      grid-template-columns:repeat(1, 1fr);
+    }
+
+    .top-players .section-title{
+      text-align:center;
+    }
+    .course{
+      display:grid;
+      grid-template-columns:repeat(1, 1fr);
+      grid-gap:30px;
+    }
+    .course .course-item{
+      display:grid;
+      grid-gap:30px;
+      box-shadow:0 0 20px #f0ebeb;
+      justify-content:center;
+      padding:30px 0px;
+  }
+}
+
+ /*-------------------------------------------------
+              Extra small device 668px 
+---------------------------------------------------*/
+@media only screen and (max-width:668px){
+  .header .navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .top-blogs{
+    display:grid;
+    grid-template-columns:repeat(1, 1fr);
+  }
+  
+  .course{
+    display:grid;
+    grid-template-columns:repeat(1, 1fr);
+    grid-gap:30px;
+  }
+  .course .course-item{
+    padding:30px 0px;
+    box-shadow:initial;
+  }
+
+
+}

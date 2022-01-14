@@ -112,8 +112,7 @@ a{
 .top-blogs{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    grid-row-gap:30px;
-    grid-column-gap:35px;
+    grid-gap:30px;
 }
 .blog-items{
     display:flex;
@@ -146,10 +145,13 @@ a{
 .course .course-item{
     display:grid;
     grid-row-gap:30px;
+    box-shadow:0 0 20px #e4dede;
+    justify-content:center;
 }
 .course .course-photo img{
     width:200px;
     height:100px;
+    margin:auto;
 }
 .course .course-info h5{
     margin:0 0 10px 0;
